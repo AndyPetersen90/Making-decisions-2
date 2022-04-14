@@ -90,7 +90,7 @@ var score = 74
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24, 28,35];
 // Do not edit the code above.
 
 /*
@@ -113,12 +113,13 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
-// if(myFavoriteNumbers.length < 7){
-//   console.log("There are not enough elements in this Array.");
-// } if(myFavoriteNumbers.length >= 7){
-//     let someNum = myFavoriteNumbers[7]
-// }
-// console.log(someNum);
+if(myFavoriteNumbers.length < 7){
+  console.log("There are not enough elements in this Array.");
+} else if(myFavoriteNumbers.length >= 7){
+  someNum = myFavoriteNumbers[7]
+}
+
+console.log(someNum);
 
 ////////// PROBLEM 8 //////////
 
@@ -173,25 +174,25 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-switch(letterGrade){
-  case 'A':
-    console.log("The Student is doing excellently.");
-    break;
-  case 'B':
-    console.log("The student is doing well.");
-    break;
-  case 'C':
-    console.log("The student is doing alright.");
-    break;
-  case 'D':
-    console.log("The student is not doing very well.");
-    break;
-  case 'F':
-    console.log("The student is failing.");
-    break;
-  case letterGrade:
-    console.log("Not an eligible grade.")
-}
+// switch(letterGrade){
+//   case 'A':
+//     console.log("The Student is doing excellently.");
+//     break;
+//   case 'B':
+//     console.log("The student is doing well.");
+//     break;
+//   case 'C':
+//     console.log("The student is doing alright.");
+//     break;
+//   case 'D':
+//     console.log("The student is not doing very well.");
+//     break;
+//   case 'F':
+//     console.log("The student is failing.");
+//     break;
+//   case letterGrade:
+//     console.log("Not an eligible grade.")
+// }
 
 
 ////////// PROBLEM 11 //////////
@@ -220,14 +221,14 @@ switch(letterGrade){
 
 //Code Here
 
-for( i = 1; i < 101; i++){
-  if(i % 3 === 0 && i % 5 === 0){
-    console.log("DevMountain");
-  } else if(i % 3 === 0 && i % 5 !== 0){
-    console.log("Dev");
-  } else if(i % 3 !== 0 && i % 5 === 0 ){
-    console.log("Mountain");
-  } else if (i % 3 !== 0 && i % 5 !== 0){
-    console.log(i);
-  }
-}
+// for( i = 1; i < 101; i++){
+//   if(i % 3 === 0 && i % 5 === 0){
+//     console.log("DevMountain");
+//   } else if(i % 3 === 0 && i % 5 !== 0){
+//     console.log("Dev");
+//   } else if(i % 3 !== 0 && i % 5 === 0 ){
+//     console.log("Mountain");
+//   } else {
+//     console.log(i);
+//   }
+// }
