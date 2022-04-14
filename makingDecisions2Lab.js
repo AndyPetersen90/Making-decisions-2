@@ -8,9 +8,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-// let firstItem = arr[0];
+let firstItem = arr[0];
 
-// console.log(firstItem);
+console.log(firstItem);
 
 ////////// PROBLEM 2 //////////
 /*
@@ -19,10 +19,10 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
-// let lastItemRemoved = arr.pop()
+let lastItemRemoved = arr.pop()
 
-// console.log(lastItemRemoved);
-// console.log(arr);
+console.log(lastItemRemoved);
+console.log(arr);
 
 
 ////////// PROBLEM 3 //////////
@@ -37,9 +37,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-// for (i = 0; i < family.length - 1; i++){
-//   console.log(family[i]);
-// }
+for (i = 0; i < family.length - 1; i++){
+  console.log(family[i]);
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -54,11 +54,11 @@ let evensArr = []
 
 //Code Here
 
-// for( i = 0; i < nums.length; i++){
-//   if (nums[i] % 2 === 0)
-//   evensArr.push(nums[i]);
-// }
-// console.log(evensArr)
+for( i = 0; i < nums.length; i++){
+  if (nums[i] % 2 === 0)
+  evensArr.push(nums[i]);
+}
+console.log(evensArr)
 
 
 ////////// PROBLEM 5 //////////
@@ -73,17 +73,17 @@ var score = 74
 
 //Code Here
 
-// if(score >= 90){
-//   console.log("A");
-// } else if(score < 90 && score >= 80){
-//   console.log("B"); 
-// } else if(score < 80 && score >= 70){
-//   console.log("C");
-// } else if(score < 70 && score >= 60){
-//   console.log("D");
-// } else if (score < 60){
-//   console.log("F");
-// }
+if(score >= 90){
+  console.log("A");
+} else if(score < 90 && score >= 80){
+  console.log("B"); 
+} else if(score < 80 && score >= 70){
+  console.log("C");
+} else if(score < 70 && score >= 60){
+  console.log("D");
+} else if (score < 60){
+  console.log("F");
+}
 
 ////////// Intermediate Problems //////////
 
@@ -99,8 +99,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24, 28,35];
 
 //Code Here
 
-// let someNum = myFavoriteNumbers.slice(4, 5);
-// console.log(someNum);
+let someNum = myFavoriteNumbers.slice(4, 5);
+console.log(someNum);
 
 ////////// PROBLEM 7 //////////
 
@@ -132,11 +132,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
-// for(i = 0; i < listOfNumbers.length; i++){
-//   if(listOfNumbers[i] % 3 === 0){
-//     console.log(`${listOfNumbers[i]} is divisible by 3.`);
-//   }
-// }
+for(i = 0; i < listOfNumbers.length; i++){
+  if(listOfNumbers[i] % 3 === 0){
+    console.log(`${listOfNumbers[i]} is divisible by 3.`);
+  }
+}
 
 
 ////////// PROBLEM 9 //////////
@@ -149,9 +149,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 // //Code Here
-// for(i = letters.length - 1; i >= 0; i--){
-//   console.log(letters[i]);
-// }
+for(i = letters.length - 1; i >= 0; i--){
+  console.log(letters[i]);
+}
 
 ////////// Advanced Problems //////////
 
@@ -174,25 +174,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-// switch(letterGrade){
-//   case 'A':
-//     console.log("The Student is doing excellently.");
-//     break;
-//   case 'B':
-//     console.log("The student is doing well.");
-//     break;
-//   case 'C':
-//     console.log("The student is doing alright.");
-//     break;
-//   case 'D':
-//     console.log("The student is not doing very well.");
-//     break;
-//   case 'F':
-//     console.log("The student is failing.");
-//     break;
-//   case letterGrade:
-//     console.log("Not an eligible grade.")
-// }
+switch(letterGrade){
+  case 'A':
+    console.log("The Student is doing excellently.");
+    break;
+  case 'B':
+    console.log("The student is doing well.");
+    break;
+  case 'C':
+    console.log("The student is doing alright.");
+    break;
+  case 'D':
+    console.log("The student is not doing very well.");
+    break;
+  case 'F':
+    console.log("The student is failing.");
+    break;
+  case letterGrade:
+    console.log("Not an eligible grade.");
+    break;
+}
 
 
 ////////// PROBLEM 11 //////////
@@ -221,14 +222,14 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-// for( i = 1; i < 101; i++){
-//   if(i % 3 === 0 && i % 5 === 0){
-//     console.log("DevMountain");
-//   } else if(i % 3 === 0 && i % 5 !== 0){
-//     console.log("Dev");
-//   } else if(i % 3 !== 0 && i % 5 === 0 ){
-//     console.log("Mountain");
-//   } else {
-//     console.log(i);
-//   }
-// }
+for( i = 1; i < 101; i++){
+  if(i % 3 === 0 && i % 5 === 0){
+    console.log("DevMountain");
+  } else if(i % 3 === 0 && i % 5 !== 0){
+    console.log("Dev");
+  } else if(i % 3 !== 0 && i % 5 === 0 ){
+    console.log("Mountain");
+  } else {
+    console.log(i);
+  }
+}
